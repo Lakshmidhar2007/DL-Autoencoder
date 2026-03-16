@@ -73,8 +73,8 @@ optimizer = optim.Adam(model.parameters(), lr=1e-3, weight_decay=1e-3)
 def train(model, loader, criterion, optimizer, epochs=10):
     model.train()
 
-    print("Name: Junjar U")
-    print("Register Number: 212224230110")
+    print("Name: LAKSHMIDHAR N")
+    print("Register Number: 212224230138")
 
     for epoch in range(epochs):
         running_loss = 0.0
@@ -107,8 +107,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: Junjar U")
-    print("Register Number: 212224230110")
+    print("Name: LAKSHMIDHAR N")
+    print("Register Number: 212224230138")
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
         # Original
